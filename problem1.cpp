@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
 	int numbers[] = { 10, 15, 3, 10 };
 	int sum = 20;
@@ -19,7 +17,6 @@ int main() {
 				}
 		}
 	}
-
 	cout << boolalpha << isPresent << endl;
 	return 0;
 }
